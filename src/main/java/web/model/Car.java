@@ -1,4 +1,4 @@
-package web.Util;
+package web.model;
 
 public class Car {
 
