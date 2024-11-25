@@ -13,12 +13,12 @@ import java.util.List;
 @Controller
 public class CarController {
 
-
+    @Autowired
+    private CarServiceImp carServiceImp;
 
     @GetMapping(value = "/cars")
     public String getCar(@RequestParam(value = "count", defaultValue = "5") int allCars, Model model) {
-        List<Car> car = new CarServiceImp().getCars();
-        car = CarServiceImp.carsCount(car, allCars);
+        List<Car> car = carServiceImp.getCarsByCount(allCars);
         model.addAttribute("cars", car);
         return "cars";
     }

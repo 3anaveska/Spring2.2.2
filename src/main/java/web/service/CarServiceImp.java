@@ -1,16 +1,24 @@
 package web.service;
 
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 import web.model.Car;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
-@Component
-public class CarServiceImp {
+@Service
+public class CarServiceImp implements CarService {
+
 
     private List<Car> cars = new ArrayList<>();
+    public List<Car> list = new ArrayList<>();
+
+    public CarServiceImp(List<Car> list) {
+        this.list = list;
+    }
+
 
     public  List<Car> getCars() {
         cars.add(new Car("Haval", "Black", 2022));
@@ -20,8 +28,12 @@ public class CarServiceImp {
         cars.add(new Car("BMW", "Blue", 2021));
         return cars;
     }
-    public static List<Car> carsCount(List<Car> list, int number) {
-        if (number == 0 || number > 5) return list;
+
+    public List<Car> getCarsByCount(int number) {
+        list = getCars();
+        if (number == 0 || number > 5) {
+            return getCars();
+        }
         return list.stream().limit(number).collect(Collectors.toList());
     }
 

@@ -9,14 +9,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f878eda8-f1ee-4b8a-a2e6-46c6d547f866" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="f878eda8-f1ee-4b8a-a2e6-46c6d547f866" name="Changes" comment="2.2.2">
+      <change afterPath="$PROJECT_DIR$/src/main/java/web/service/CarService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/web/controller/CarController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/controller/CarController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/model/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/model/Car.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/web/service/CarServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/service/CarServiceImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/webapp/WEB-INF/pages/cars.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/webapp/WEB-INF/pages/cars.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,8 +25,8 @@
       <list>
         <option value="spring-beans.schema" />
         <option value="HTML File" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -210,10 +207,24 @@
       <workItem from="1732442840812" duration="4758000" />
       <workItem from="1732463435293" duration="807000" />
       <workItem from="1732545153721" duration="1812000" />
+      <workItem from="1732549562759" duration="8010000" />
     </task>
+    <task id="LOCAL-00001" summary="2.2.2">
+      <option name="closed" value="true" />
+      <created>1732549586947</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1732549586947</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2.2.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="2.2.2" />
   </component>
 </project>
